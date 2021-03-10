@@ -1,0 +1,48 @@
+import Vue from 'vue'
+import {
+  Button, Form, FormItem, Input, Container,
+  Header,
+  Aside,
+  Main,
+  Message,
+  Menu,
+  Submenu,
+  MenuItem,
+  Breadcrumb,
+  BreadcrumbItem,
+  Card,
+  Row,
+  Col,
+  Table,
+  TableColumn,
+  Switch,
+  Pagination,
+  Dialog,
+  Tooltip,
+  MessageBox
+} from 'element-ui'
+
+Vue.use(Button) // 全局
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(Submenu)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Switch)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Tooltip)
+Vue.prototype.$message = Message // 挂载 消息提醒组件
+Vue.prototype.$confirm = MessageBox.confirm // 挂载 消息弹出组件
